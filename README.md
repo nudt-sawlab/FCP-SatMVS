@@ -209,8 +209,8 @@ Notes:
 ## Module Reference
 
 ### CDAM (`modules/CDAM.py`)
-- `LAM(channel, input_size)`: linear attention along a single axis.
-- `CDAM_Block(channel, h, w)`: combines two LAMs along H and W and
+- `CAM(channel, input_size)`: linear attention along a single axis.
+- `CDAM_Block(channel, h, w)`: combines two CAMs along H and W and
   produces a `[B, C, h, w]` attention map.
 
 ### PUIP (`modules/PUIP.py`)
